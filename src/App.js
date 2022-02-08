@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Todo from './Todo';
+import Average from './Average';
+import AddNos from './AddNos';
+import MiniCalculator from './MiniCalculator';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Assignments Feb8</h1>
+      <Todo></Todo>
+      <Average></Average>
+      <AddNos num1={10} num2={22}></AddNos>
+      <MiniCalculator num1={10} num2={5} operation="divide"></MiniCalculator>
     </div>
   );
 }

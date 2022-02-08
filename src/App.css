@@ -1,12 +1,46 @@
 .App {
   text-align: center;
+  padding: 10px;
+  background: linear-gradient(45deg,rgb(230, 181, 189),rgb(154, 192, 154));
+  margin: auto;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.Item{
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 5px 5px grey;
+  border-radius: 5px;
+}
+button,input{
+  width: 90%;
+  margin: 5px;
+  height: 40px;
+}
+button{
+  border-radius: 10px;
+  background: linear-gradient(45deg,blue,black);
+  color: white;
+  font-weight: bold;
+}
+button:hover{
+  background: linear-gradient(45deg,black,blue);
+}
+h1{
+  color: rgb(124, 4, 94);
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  text-shadow: 2px 1px black;
+}
+h2{
+  color: brown;
+  text-shadow: 1px 2px black;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
